@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value ="UNIstore"></dbname>
+    <version value ="9"></version>
+    <list>
+        <mapping class = "com.example.uni.util.Schedule"></mapping>
+        <mapping class= "com.example.uni.util.StudentID"></mapping>
+        <mapping class= "com.example.uni.util.PersonInfo"></mapping>
+        <mapping class= "com.example.uni.util.Markalive"></mapping>
+        <mapping class= "com.example.uni.util.People_Thing"></mapping>>
+    </list>
+</litepal>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+        <item
+            app:itemBackground="@color/colorAccent"
+            android:id="@+id/Schedule_nav"
+            android:icon="@drawable/logo_schedule"
+            android:title="课表" />
+    </group>
+    <group
+        android:id="@+id/g2"
+        android:checkableBehavior="single">
+        <item
+            app:itemBackground="@color/colorAccent"
+            android:id="@+id/MealCard_nav"
+           android:icon="@drawable/logo_mealcard"
+            android:title="饭卡" />
+    </group>
+
+    <group
+        android:id="@+id/g3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Askforleave_nav"
+            android:icon="@drawable/icon5"
+            android:title="请假"/>
+    </group>
+
+    <group
+        android:id="@+id/g4"
+        android:checkableBehavior="single">
+        <item android:icon="@drawable/icon4"
+            android:title="账号信息"
+            android:id="@+id/Modify_info_nav"/>
+    </group>
+    <group
+        android:id="@+id/g5"
+        android:checkableBehavior="single">
+        <item
+            app:itemBackground="@color/colorAccent"
+            android:id="@+id/Exit_nav"
+            android:icon="@drawable/logo_exit"
+            android:title="退出登录" />
+    </group>
+    <group
+        android:id="@+id/g6"
+        android:checkableBehavior="single">
+        <item
+            app:itemBackground="@color/colorAccent"
+            android:id="@+id/SetUP"
+            android:icon="@drawable/icon6"
+            android:title="设置" />
+    </group>
+</menu>

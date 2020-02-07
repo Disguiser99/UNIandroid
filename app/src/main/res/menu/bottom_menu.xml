@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/msg_item"
+        android:enabled="true"
+        android:icon="@drawable/logo_bottomview_messages"
+        android:title="信息"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/friend_item"
+        android:enabled="true"
+        android:icon="@drawable/logo_bottomview_circle"
+        android:title="圈子"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/community_item"
+        android:enabled="true"
+        android:icon="@drawable/logo_bottomview_community"
+        android:title="校园"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

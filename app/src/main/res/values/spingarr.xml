@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>     单身可撩</item>
+        <item>     钢铁硬直</item>
+        <item>     已有归属</item>
+        <item>     随心随意</item>
+    </string-array>
+</resources>

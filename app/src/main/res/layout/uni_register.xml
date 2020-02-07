@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.uni.ball_bounce.BounceBallView
+        android:id="@+id/bbv1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:background="#ffffff"
+        app:anim_duration="3300"
+        app:ball_count="15"
+        app:ball_delay="220"
+        app:bounce_count="3"
+        app:layout_constraintBottom_toTopOf="@+id/register_post"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regitser_return"></com.example.uni.ball_bounce.BounceBallView>
+
+
+    <EditText
+        android:id="@+id/stu_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="请输入学号"
+        app:layout_constraintBottom_toTopOf="@+id/epassword"
+        app:layout_constraintStart_toStartOf="@+id/bbv1" />
+
+    <EditText
+        android:id="@+id/epassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="请输入e江南密码"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintStart_toStartOf="@+id/stu_number" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请设置本app密码"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/bbv1"
+        app:layout_constraintStart_toStartOf="@+id/epassword" />
+
+    <Button
+        android:id="@+id/register_post"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="228dp"
+        android:text="注册"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bbv1" />
+
+    <Button
+        android:id="@+id/regitser_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="246dp"
+        android:text="登录"
+        app:layout_constraintBottom_toTopOf="@+id/bbv1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

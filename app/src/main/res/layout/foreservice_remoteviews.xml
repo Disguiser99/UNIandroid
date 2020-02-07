@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notificationLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFAADD"
+    >
+
+    <ImageView
+        android:id="@+id/notificationImageView"
+        android:layout_width="70dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/icon1" />
+
+    <TextView
+        android:id="@+id/notificationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/notificationImageView"
+        android:gravity="center"
+        android:text="1B312"
+        android:textSize="35sp" />
+
+
+    <Button
+        android:id="@+id/close_remoteview"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/icon2" />
+
+    <Button
+        android:id="@+id/notificatinoButton2"
+        android:layout_width="45dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="346dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/icon3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="60dp"
+        android:text="android移动应用开发"
+        android:textSize="20sp" />
+
+</RelativeLayout>
